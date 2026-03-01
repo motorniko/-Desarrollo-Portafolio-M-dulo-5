@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+#lista-lugares {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 300px;
+}
+
+.lugar {
+  background-color: white;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+}
+
+.lugar:hover {
+  background-color: #e0f0ff;
+}
+
+a {
+  display: inline-block;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: #0066cc;
+}
